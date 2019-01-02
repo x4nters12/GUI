@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Chomik:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Chomik_jar</output-path>
+    <root id="archive" name="Chomik.jar">
+      <element id="module-output" name="Chomik" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/driver/postgresql-42.2.5.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
