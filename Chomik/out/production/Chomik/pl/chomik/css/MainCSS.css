@@ -1,0 +1,86 @@
+GridPane {
+    -fx-background-color: #cacaca;
+}
+
+
+
+.menu-bar {
+    -fx-background-color: linear-gradient(#3c3c3c,#2d2d2d);
+    -fx-padding: 0;
+}
+.menu:hover {
+    -fx-background-color: #00aa00;
+}
+.menu:pressed {
+    -fx-background-color: #007000;
+}
+.menu:focused {
+    -fx-background-color: #00aa00;
+}
+.menu .label {
+    -fx-text-fill: white;
+}
+.menu .menu-item:focused{
+    -fx-background-color: #00aa00;
+}
+.menu .menu-item:focused .label {
+    -fx-text-fill: white;
+}
+.menu .menu-item:hover {
+    -fx-background-color: #00aa00;
+    -fx-text-fill: white;
+}
+.menu .menu-item .label {
+    -fx-text-fill: black;
+}
+
+
+
+
+.text-field {
+    -fx-background-color: #a9a9a9 , white , white;
+    -fx-background-insets: -1, -1, -1, -1;
+}
+
+
+
+
+.button {
+    -fx-focus-color: transparent;
+    -fx-background-insets: -1, -1, -1, -1;
+}
+
+.table-view {
+    -fx-focus-color: transparent;
+    -fx-background-insets: 1, 1, 1, 1;
+}
+.table-view .table-cell:selected {
+    -fx-background-color: linear-gradient(#00aa00,#009000);
+}
+
+#menuBox {
+    -fx-background-color: linear-gradient(#3c3c3c,#2d2d2d);
+}
+
+#menuHome {
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#00aa00,#009000);
+}
+#menuHome:hover {
+    -fx-background-color: linear-gradient(#009000,#007000);
+}
+#menuHome .menu-item {
+    -fx-font-weight: normal;
+}
+#menuHome .menu-item:focused {
+    -fx-background-color: #00aa00;
+
+}
+#menuHome .menu-item:focused .label {
+    -fx-text-fill: white;
+}
+
+
+#mainDBstatus {
+    -fx-text-fill: white;
+}

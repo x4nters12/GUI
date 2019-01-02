@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.geometry.Insets?>
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="pl.chomik.controllers.AboutGuiController">
+
+            <GridPane>
+                <columnConstraints>
+                    <ColumnConstraints hgrow="SOMETIMES"/>
+                </columnConstraints>
+                <rowConstraints>
+                    <RowConstraints vgrow="SOMETIMES"/>
+                    <RowConstraints vgrow="ALWAYS"/>
+                </rowConstraints>
+
+                <children>
+                    <ImageView>
+                        <image><Image url="@../img/icon.png"/></image>
+                    </ImageView>
+                    <Label GridPane.rowIndex="0" text="Chomik [Beta]" >
+                        <GridPane.margin>
+                            <Insets left="10" top="-480"/>
+                        </GridPane.margin>
+                    </Label>
+                    <Label GridPane.rowIndex="1" text="Autorzy: Kozubek Dariusz, Borek Kamil">
+                        <GridPane.margin>
+                            <Insets left="10" top="-310"/>
+                        </GridPane.margin>
+                    </Label>
+                </children>
+            </GridPane>
+
+</VBox>
